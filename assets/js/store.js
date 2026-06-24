@@ -1,5 +1,5 @@
 /* ============================================================
-   PUREBAC store engine — product data, bespoke SVG vials,
+   WATER4PEPTIDES store engine — product data, bespoke SVG vials,
    localStorage cart, drawer, checkout. No dependencies.
    ============================================================ */
 (function () {
@@ -36,7 +36,7 @@
 
   const FREE_SHIP_AT = 75;
   const FLAT_SHIP = 7.95;
-  const CART_KEY = "purebac_cart_v1";
+  const CART_KEY = "water4peptides_cart_v1";
 
   const byId = Object.fromEntries(PRODUCTS.map((p) => [p.id, p]));
   const money = (n) => "$" + n.toFixed(2);

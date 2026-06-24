@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /checkout.html
 
-Sitemap: https://palmettoai.github.io/bac-water-site/sitemap.xml
+Sitemap: https://water4peptides.com/sitemap.xml

@@ -1,6 +1,6 @@
 # bac-water-site
 
-Demo e-commerce storefront for **bacteriostatic ("BAC") water** — built by Palmetto AI to pitch a prospect. Placeholder brand: **PureBac** (swap freely).
+Demo e-commerce storefront for **bacteriostatic ("BAC") water** — built by Palmetto AI to pitch a prospect. Placeholder brand: **Water4Peptides** (swap freely).
 
 **Live demo:** https://palmettoai.github.io/bac-water-site/
 
@@ -24,7 +24,7 @@ robots.txt · sitemap.xml · 404.html
 
 ## Swapping for a real client
 1. **Products:** edit the `PRODUCTS` array at the top of `assets/js/store.js` (single source of truth — name, SKU, price, volume, chips).
-2. **Brand:** find/replace `PureBac` in `index.html`, `checkout.html`, `404.html`; update the inline droplet SVG in the header/footer.
+2. **Brand:** find/replace `Water4Peptides` in `index.html`, `checkout.html`, `404.html`; update the inline droplet SVG in the header/footer.
 3. **Domain:** update the canonical / `og:url` / sitemap URLs and add a `CNAME` file when a custom domain is assigned.
 4. **Payments:** replace the simulated payment panel in `checkout.html` with a live Stripe / Shopify Buy Button when the prospect signs.
 5. **OG image:** `assets/og.png` (1200×630) — regenerate per brand.
